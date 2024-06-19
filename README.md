@@ -77,7 +77,7 @@ The application layer is based on protobuf to customize the rpc communication pr
     6.2 Project Construction and Testing
 ```
 
-##### 4.1 目录
+##### 4.1 catalogue
 ```
 EasyTcp
     -Bin
@@ -211,7 +211,7 @@ reserArriveTime()
 multimap Store TimerEvent<key (arrivetime), TimerEvent>
 ```
 
-##### 5.5 IO 线程
+##### 5.5 IO thread 
 
 Create an IO thread that will help us execute:
 Create a new thread (pthread_create)
@@ -246,7 +246,7 @@ Declare an empty response type object
     Encode it and stuff it into the buffer, and it will send the packet back
 ```
 
-#### 6 使用 Generator 生成代码
+#### 6 Using a Generator to Generate Code
 
 Assuming the need to build an RPC service,     
 the function of the service is to provide an ordering interface and implement order production logic.     
