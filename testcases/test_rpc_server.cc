@@ -60,10 +60,11 @@ int main(int argc, char *argv[])
     printf("Start test_rpc_server error, argc not 2 \n");
     printf("Start like this: \n");
     printf("./test_rpc_server ../conf/EasyTcp.xml \n");
-    return 0;
+    // return 0;
   }
 
-  EasyTcp::Config::SetGlobalConfig(argv[1]);
+  printf("Start test_rpc_server config : \n/home/qwe/folder/PRO-icloudCode-ALL-Study/jianli/EasyTcp/conf/EasyTcp.xml\n");
+  EasyTcp::Config::SetGlobalConfig("/home/qwe/folder/PRO-icloudCode-ALL-Study/jianli/EasyTcp/conf/EasyTcp.xml");
 
   EasyTcp::Logger::InitGlobalLogger();
 

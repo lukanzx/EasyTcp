@@ -1,4 +1,4 @@
-#include <tinyxml/tinyxml.h>
+#include <tinyxml.h>
 #include "EasyTcp/common/config.h"
 
 #define READ_XML_NODE(name, parent)                                         \

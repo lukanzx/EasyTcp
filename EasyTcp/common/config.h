@@ -1,7 +1,7 @@
 #pragma once
 
 #include <map>
-#include <tinyxml/tinyxml.h>
+#include <tinyxml.h>
 #include "EasyTcp/net/tcp/net_addr.h"
 
 namespace EasyTcp
